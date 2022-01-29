@@ -4,6 +4,6 @@
     </#if>
 
     <#if hasNext>
-        <a id="loadNext" href="${nextPageLink!''}" data-default-page-size="${defaultPageSize!3}">Следующая страница>>></a>
+        <a id="loadNext" href="${nextPageLink!''}" data-default-page-size="${defaultPageSize!5}">Следующая страница>>></a>
     </#if>
 </div>

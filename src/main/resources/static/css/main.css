@@ -1,0 +1,93 @@
+body{
+    background-color: azure;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+}
+. menu {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.message {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.menuA {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.menuLi {
+    display: inline-block;
+}
+
+.menuLiLog {
+    display: inline-block;
+    padding-left:150px;
+}
+
+.menuLiReg {
+    display: inline-block;
+}
+
+button {
+    width: 180px;
+    height: 50px;
+}
+
+.flex {
+    display: flex;
+}
+
+.items {
+    margin: 0;
+    padding: 4px;
+}
+li {
+    display: inline;
+    margin-right: 5px;
+    padding: 3px;
+}
+.flex-column {
+    flex-flow: column;
+    border: 1px solid black;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#loadNext{
+    border: 1px solid black;
+    padding-left: 40px;
+}
+
+#loadPrev {
+    border: 1px solid black;
+}
+
+.flex-v-center {
+    align-items: center;
+}
+
+.box {
+    flex-basis: 256px;
+    height: 256px;
+}
+
+.food-icon {
+    width: 128px;
+    padding-bottom: 20px;
+}
+
+.label-input-text {
+    flex-basis: 200px;
+}

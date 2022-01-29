@@ -7,8 +7,8 @@
                 <div class="flex">
                     <ul>
                         <li>${theme.title}</li>
-                        <li>${theme.created}</li>
-                        <li>${theme.user.name}</li>
+                        <li style="color: blue; padding-left: 10px;">${theme.created}</li>
+                        <li style="color: darkblue; padding-left: 10px;">${theme.user.name}</li>
 
                     </ul>
                 </div>
