@@ -26,7 +26,7 @@ public class ThemeDTO {
                 .title(theme.getTitle())
                 .created(theme.getCreated())
                 .description(theme.getDescription())
-                .count(theme.getCount())
+                .count(theme.getCount()+1)
                 .user(theme.getUser())
                 .build();
     }

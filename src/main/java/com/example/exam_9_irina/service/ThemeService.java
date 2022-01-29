@@ -46,16 +46,15 @@ public class ThemeService {
     public void addTheme(ThemeDTO themeDTO, String name) {
         Theme theme = new Theme();
         theme.setTitle(themeDTO.getTitle());
-        theme.setCreated(themeDTO.getCreated());
+//        theme.setCreated(themeDTO.getCreated());
         //        LocalDateTime currentDate = LocalDateTime.now();
         User user = userRepository.findByName(name);
         theme.setUser(user);
         theme.setDescription(themeDTO.getDescription());
         themeRepository.save(theme);
     }
-
-    public List<Answer> findAllAnswersByThemeId(int themeId) {
-        return answerRepository.findAllByThemeId(themeId);
-    }
-
+//
+//    public List<Answer> findAllAnswersByThemeId(int themeId) {
+//        return answerRepository.findAllByThemeId(themeId);
+//    }
 }
